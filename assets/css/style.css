@@ -175,6 +175,10 @@ body {
 }
 
 @media (max-width: 991.98px) {
+  .header {
+    position: inherit;
+  }
+
   .header-top {
     flex-wrap: wrap;
   }
@@ -301,6 +305,7 @@ body {
 @media (max-width: 991.98px) {
   .hero {
     display: block;
+    padding-top: 88px;
   }
 
   .hero-left {
