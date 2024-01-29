@@ -578,6 +578,10 @@ body {
   .col-lg__hidden {
     display: block;
   }
+
+  .favorite__desc-bottom {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 767.98px) {
