@@ -543,6 +543,10 @@ body {
   max-width: 498.76px;
 }
 
+.col-lg__hidden {
+  display: none;
+}
+
 @media (max-width: 1199.98px) {
   .favorite__heading {
     font-size: 3.2rem;
@@ -565,6 +569,14 @@ body {
 
   .favorite-gutter {
     margin-top: 0;
+  }
+
+  .col-lg__hide {
+    display: none;
+  }
+
+  .col-lg__hidden {
+    display: block;
   }
 }
 
