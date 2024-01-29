@@ -18,6 +18,7 @@ input {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -59,11 +60,19 @@ body {
 
 /* --- header-top--- */
 
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 99;
+}
+
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 48px 0 20px 0;
+  padding: 20px 0;
 }
 
 .navbar-list {
@@ -211,7 +220,7 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 68px 0 130px 0;
+  padding: 176px 0 130px 0;
 }
 
 .hero-left {
@@ -739,6 +748,11 @@ body {
   color: #676767;
 }
 
+.footer__col-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .footer-desc__right {
   width: 254.06px;
 }
@@ -795,6 +809,10 @@ body {
   .footer-desc__right {
     width: 100%;
     text-align: center;
+  }
+
+  .footer__col-end {
+    justify-content: center;
   }
 }
 
