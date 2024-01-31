@@ -794,8 +794,13 @@ body {
   background: #ececec;
 }
 
+.footer__end div {
+  font-size: 1.4rem;
+}
+
 .footer__end > span {
   color: #8c8c8c;
+  font-size: 1.4rem;
 }
 
 .footer__end div span:nth-child(1) {
